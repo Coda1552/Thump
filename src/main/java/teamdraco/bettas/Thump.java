@@ -25,6 +25,7 @@ public class Thump {
 
         if (entity instanceof Rabbit rabbit) {
             rabbit.goalSelector.addGoal(0, new ThumpGoal(rabbit));
+
         }
     }
 }
